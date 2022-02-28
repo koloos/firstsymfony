@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Pompiere&display=swap');
+
+:root{
+    --main-color: #7c3208;
+    --second-color: #fe7f25;
+    --third-color: #f6cbb2;
+    --bcg-active: #fff0E7;
+    --main-font-size: 1em;
+}
+
+*{
+    font-family: 'Pompiere', cursive;
+    color: var(--main-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    font-size: var(--main-font-size);
+}
+
+body{
+    background-color: var(--third-color);
+    background-attachment: fixed;
+    background-size:cover;
+}
+
